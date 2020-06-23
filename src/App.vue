@@ -6,7 +6,9 @@
       <router-link to="/admin/staff">Staff</router-link> |
       <router-link to="/admin/booking">Booking</router-link>
     </div>
-    <router-view/>
+    <div class="main-content">
+        <router-view/>
+    </div>
   </div>
 </template>
 

@@ -1,6 +1,7 @@
 <template>
     <div class="staff">
         <div>Staff Component.</div>
+        <b-button variant="info" @click="getBookingByMonth">get booking</b-button>
     </div>
 </template>
 
@@ -9,14 +10,15 @@
         name: "Staff",
         computed: {
             test: function () {
-                let a = 'son';
-                return this.$_.isNull(a);
+                return this.$moment().format("HH:mm");
+            },
+            testHelper: function(){
+                return this.$helper.test();
             }
         },
         methods: {
-            testLodash: function(){
-                let a = 'son';
-                return this.$_.isNull(a);
+            getBookingByMonth: function(){
+                this.$api.getBookingByMonth('sontv');
             }
         }
     }
