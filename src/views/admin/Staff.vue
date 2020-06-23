@@ -6,7 +6,19 @@
 
 <script>
     export default {
-        name: "Staff"
+        name: "Staff",
+        computed: {
+            test: function () {
+                let a = 'son';
+                return this.$_.isNull(a);
+            }
+        },
+        methods: {
+            testLodash: function(){
+                let a = 'son';
+                return this.$_.isNull(a);
+            }
+        }
     }
 </script>
 
