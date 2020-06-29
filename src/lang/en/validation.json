@@ -1,4 +1,0 @@
-{
-    "required": "{field} must be required!",
-    "max_length": "Max length is 10!"
-}

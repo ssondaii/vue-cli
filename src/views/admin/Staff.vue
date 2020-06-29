@@ -2,6 +2,7 @@
     <div class="staff">
         <div>Staff Component.</div>
         <b-button variant="info" @click="getBookingByMonth">get booking</b-button>
+        <div>{{ $t('example.link-multi-param', {param: 'abc', param2: 'xyz'}) }}</div>
     </div>
 </template>
 

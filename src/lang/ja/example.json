@@ -1,0 +1,15 @@
+{
+
+    "basic": "This is basic example.",
+
+    "param12": "Your passed param is: {param1} {param2}",
+
+    "param34": "Your passed param2 is: {param3} {param4}",
+
+    "link-basic": "@:(example.basic) Hello World !!!",
+
+    "link-params": "@:(example.param12) Hello World !!!",
+
+    "link-multi-params": "@:(example.param12) + @:(example.param34) Hello World !!!"
+
+}
